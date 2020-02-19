@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="hello_world" type="node" name="hello_world_node" output="screen"/>
+  <node pkg="libsensors_monitor" type="libsensors_monitor" name="libsensors_monitor"/>
+</launch>
